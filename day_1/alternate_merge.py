@@ -13,7 +13,8 @@ len2 = True
 pw1 = 0
 pw2 = 0
 
-for i in range(1, leng+2):
+#leng+3 because 2 spaces are added and 1 as we start with 1
+for i in range(1, leng+3):
   if i % 2 == 0 and len2:
     print(w2[pw2])
     len2 = w2[pw2] != ' '
