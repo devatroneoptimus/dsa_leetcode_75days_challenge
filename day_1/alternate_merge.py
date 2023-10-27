@@ -21,11 +21,20 @@ for i in range(1, leng+3):
     if len2:
       new_w.append(w2[pw2])
       pw2 += 1
+    else:
+      break
+
   elif len1:
     len1 = w1[pw1] != ' '
     if len1:
       print(w1[pw1])
       new_w.append(w1[pw1])
       pw1 += 1
+    else:
+      break
 
+if len(w1)>len(w2):
+  new_w.append(w1[pw1:-1])
+else:
+  new_w.append(w2[pw2:-1])
   print(len1, len2)
