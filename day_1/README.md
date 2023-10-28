@@ -6,3 +6,7 @@ This is the frist day of leetcode "75" day challenge.
 ## Solutions
 
 #### Solution-1
+
+#### Solution-2
+
+## Conclusion
